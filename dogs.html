@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dogs Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Simple Carousel -->
+  <script src="https://unpkg.com/simple-slider"></script>
+  <!-- Annyang Voice Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html">Dogs</a></li>
+    </ul>
+  </nav>
+
+  <h1>Random Dogs + Breed Info</h1>
+
+  <!-- Dog Image Carousel -->
+  <div id="dog-carousel" class="slider"></div>
+
+  <!-- Dog Breed Buttons -->
+  <h2>Pick a Dog Breed</h2>
+  <div id="breed-buttons"></div>
+
+  <!-- Dog Breed Info -->
+  <div id="breed-info" style="display:none; margin-top: 20px;">
+    <h3 id="breed-name"></h3>
+    <p id="breed-description"></p>
+    <p><strong>Life Span:</strong> <span id="life-span"></span></p>
+  </div>
+
+  <!-- Voice Command Area -->
+  <div id="audio-box">
+    <h3>Voice Commands</h3>
+    <ul>
+      <li>"Hello"</li>
+      <li>"Change the color to pink"</li>
+      <li>"Navigate to stocks"</li>
+      <li>"Load dog breed Labrador"</li>
+    </ul>
+    <button onclick="turnOnVoice()">Turn On Voice</button>
+    <button onclick="turnOffVoice()">Turn Off Voice</button>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/dogs.js"></script>
+
+</body>
+</html>
