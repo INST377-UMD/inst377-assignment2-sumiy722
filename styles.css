@@ -1,0 +1,94 @@
+/* Overall Page Style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f6;
+    color: #4b2e2e;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    list-style-type: none;
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  nav li {
+    margin-right: 25px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav li:hover {
+    background-color: #ff69b4;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 28px;
+    color: #d63384;
+  }
+  
+  h2 {
+    color: #c2185b;
+  }
+  
+  /* Quote Box */
+  #quote-box {
+    background-color: #ffe3ec;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.05);
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 25px;
+    margin: 10px;
+    background-color: #ff69b4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff85c1;
+  }
+  
+  /* Audio Instructions */
+  #audio-box {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff5fa;
+    border: 2px dashed #ffc1cc;
+    border-radius: 10px;
+  }
+  
+  #audio-box h3 {
+    color: #d63384;
+  }
+  
+  #audio-box ul {
+    padding-left: 20px;
+  }
+  
+  #audio-box li {
+    margin-bottom: 8px;
+  }
+  
